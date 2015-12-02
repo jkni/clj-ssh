@@ -1,6 +1,6 @@
 (def agentproxy-version "0.0.7")
 
-(defproject clj-ssh "0.5.12-SNAPSHOT"
+(defproject jkni/clj-ssh "0.5.12-SNAPSHOT"
   :description "Library for using SSH from clojure."
   :url "https://github.com/hugoduncan/clj-ssh"
   :license {:name "Eclipse Public License"
@@ -13,6 +13,6 @@
                  [com.jcraft/jsch.agentproxy.sshagent ~agentproxy-version]
                  [com.jcraft/jsch.agentproxy.pageant ~agentproxy-version]
                  [com.jcraft/jsch.agentproxy.core ~agentproxy-version]
-                 [com.jcraft/jsch.agentproxy.jsch ~agentproxy-version]
-                 [com.jcraft/jsch "0.1.51"]]
+	 [com.jcraft/jsch.agentproxy.jsch ~agentproxy-version]
+	 [com.jcraft/jsch "0.1.51"]]
   :jvm-opts ["-Djava.awt.headless=true"])
